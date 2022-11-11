@@ -62,3 +62,5 @@
 {"level":"warn","message":{"URL":"/client.js","method":"GET"}}
 {"level":"warn","message":{"URL":"/styles.css","method":"GET"}}
 {"level":"warn","message":{"URL":"/favicon.ico","method":"GET"}}
+{"level":"warn","message":{"URL":"/styles.css","method":"GET"}}
+{"level":"warn","message":{"URL":"/client.js","method":"GET"}}
