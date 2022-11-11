@@ -1,0 +1,25 @@
+<div>
+    <h1>numero random </h1>
+    
+        <form class="px-5 mt-4" id="form-random" action="http://localhost:8080/api/randoms"  method="post">
+        <p class="fw-bold">Ingrese numero</p>
+        <div class="mb-4">
+          <input
+            max="500000000" 
+            style="width: 300px"
+            class="form-control"
+            type="number"
+            name="cant"
+            id="user"
+          />
+        
+          <button  class="btn btn-secondary" type="submit" >go on!</button>
+        </div>
+      
+      <script>
+       document.querySelector('#form-random').onsubmit = function () {
+        this.setAttribute('action', "/api/randoms?cant=" + document.querySelector('input[name=cant]').value)
+    }
+      </script>
+
+</div>

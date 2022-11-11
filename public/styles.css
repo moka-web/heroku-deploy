@@ -1,0 +1,13 @@
+body {
+  height: auto;
+}
+
+.size-thumbnail {
+  width: 40px;
+  height: 40px;
+}
+.chat {
+  width: 350px;
+  text-align: left;
+  font-size: 12px;
+}
